@@ -1,0 +1,44 @@
+.contacts {
+  background-color: #F6F6F6;
+}
+
+.contacts_row {
+  justify-content: space-between;
+}
+
+.contacts-info {
+  margin-top: 3.5rem;
+}
+
+.contacts-info__title {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+
+.contacts_img-wrp {
+  max-height: 260px;
+  overflow: hidden;
+}
+
+.contacts-request {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  min-height: 35vh;
+}
+
+.contacts-request_row {
+  justify-content: space-between;
+}
+
+.contacts-request-form__input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0.45rem 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+

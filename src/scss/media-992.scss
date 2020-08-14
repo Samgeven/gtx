@@ -153,8 +153,19 @@
         line-height: 2.25rem;
     }
 
-    .good-features_wrp  {
+    .good-features_wrp {
         margin-top: 3rem;
+    }
+
+    // Контакты 
+    
+    .contacts_img-wrp {
+        display: none;
+    }
+
+    .contacts-info {
+        margin-top: 2.5rem;
+        padding-bottom: 3rem;
     }
 
 }

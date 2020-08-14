@@ -98,6 +98,15 @@ h5 {
     }
 }
 
+.btn_submit {
+    background-color: $mainColor;
+    color: $textColor;
+    margin-top: 2.5rem;
+    &:hover {
+        border: 1px solid $mainColor;
+    }
+}
+
 // Инпуты
 
 .input {
@@ -106,13 +115,14 @@ h5 {
     padding: 0.5rem 1rem;
     display: block;
     &:focus {
-        outline: 1px solid #666666;
+        outline: none;
+        border-bottom: 1px solid $mainColor;
         transition: 0s;
     }
 }
 
 .input.error {
-    border: 1px solid #F44336;
+    border-bottom: 1px solid $errorColor;
     font-size: 1rem;
     line-height: 1.5rem;
     background: url(../../dist/img/ui/error.svg) no-repeat;
@@ -122,7 +132,7 @@ h5 {
 }
 
 .input.valid {
-    border: 1px solid #4CAF50;
+    border-bottom: 1px solid $successColor;
     background: url(../../dist/img/ui/success.svg) no-repeat;
     background-size: 16px;
     background-position: 94% 13px;

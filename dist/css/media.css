@@ -16,6 +16,10 @@
   .catalog-top-img_wrp {
     max-width: 385px; }
   .catalog-top__img {
+    margin: 0% -18%; }
+  .contacts_img-wrp {
+    margin-right: 1rem; }
+  .contacts__img {
     margin: 0% -18%; } }
 
 @media (max-width: 992px) {
@@ -105,7 +109,12 @@
     font-size: 1.75rem;
     line-height: 2.25rem; }
   .good-features_wrp {
-    margin-top: 3rem; } }
+    margin-top: 3rem; }
+  .contacts_img-wrp {
+    display: none; }
+  .contacts-info {
+    margin-top: 2.5rem;
+    padding-bottom: 3rem; } }
 
 @media (max-width: 992px) and (min-width: 768px) {
   .good-gallery_spc {
@@ -264,7 +273,9 @@
   .good-info-descr_docs {
     margin-top: 2rem; }
   .good-info-descr_wrp {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .contacts-request__info {
+    margin-top: 3.5rem; } }
 
 @media (max-width: 576px) {
   .main-big-slide {

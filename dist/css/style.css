@@ -78,17 +78,25 @@ h5 {
   .btn_buy:hover {
     border: 1px solid #000000; }
 
+.btn_submit {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin-top: 2.5rem; }
+  .btn_submit:hover {
+    border: 1px solid #000000; }
+
 .input {
   border: none;
   border-bottom: 1px solid #E5E5E5;
   padding: 0.5rem 1rem;
   display: block; }
   .input:focus {
-    outline: 1px solid #666666;
+    outline: none;
+    border-bottom: 1px solid #000000;
     transition: 0s; }
 
 .input.error {
-  border: 1px solid #F44336;
+  border-bottom: 1px solid #F44336;
   font-size: 1rem;
   line-height: 1.5rem;
   background: url(../../dist/img/ui/error.svg) no-repeat;
@@ -97,7 +105,7 @@ h5 {
   transition: 0s; }
 
 .input.valid {
-  border: 1px solid #4CAF50;
+  border-bottom: 1px solid #4CAF50;
   background: url(../../dist/img/ui/success.svg) no-repeat;
   background-size: 16px;
   background-position: 94% 13px;
@@ -452,7 +460,7 @@ label.error {
   padding-left: 1rem; }
   .breadcrumb-item + .breadcrumb-item:before {
     content: "";
-    background: url(/dist/img/ui/sprite.svg) -400px 0px;
+    background: url(../../dist/img/ui/sprite.svg) -400px 0px;
     width: 14px;
     height: 14px;
     transform: rotate(-90deg);
@@ -614,3 +622,38 @@ label.error {
 .good-details__sizes,
 .good-details-table__title {
   font-weight: 500; }
+
+.contacts {
+  background-color: #F6F6F6; }
+
+.contacts_row {
+  justify-content: space-between; }
+
+.contacts-info {
+  margin-top: 3.5rem; }
+
+.contacts-info__title {
+  font-size: 1.75rem;
+  line-height: 2.25rem; }
+
+.contacts_img-wrp {
+  max-height: 260px;
+  overflow: hidden; }
+
+.contacts-request {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  min-height: 35vh; }
+
+.contacts-request_row {
+  justify-content: space-between; }
+
+.contacts-request-form__input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0.45rem 1rem;
+  width: 100%;
+  margin-top: 1rem; }
+  .contacts-request-form__input:first-child {
+    margin-top: 0; }
