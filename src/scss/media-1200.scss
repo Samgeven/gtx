@@ -1,0 +1,40 @@
+@media (max-width: 1200px) {
+
+	// Главная 
+
+	.main-small-slide_spc {
+		padding: 4rem 4.5rem 2rem 1.5rem;
+	}
+
+	.good-item__img {
+		margin: 1rem 0.5rem;
+		max-width: 194px;
+	}
+
+	.bottom-big-slide__img-wrp {
+		padding-left: 0rem;
+		padding-right: 1rem;
+	}
+	
+	.bottom-big-slide__descr {
+		padding-left: 1rem;
+	}
+
+	.bottom-mid-slide {
+		height: 392px;
+	}
+
+	.bottom-small-slide {
+        height: 180px;
+    }
+
+    // Каталог 
+
+    .catalog-top-img_wrp {
+		max-width: 385px;
+	}
+
+	.catalog-top__img {
+		margin: 0% -18%;
+	}
+}

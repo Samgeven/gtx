@@ -1,0 +1,141 @@
+  
+// Стили для страницы товара
+
+.good-gallery-preview {
+    display: flex;
+}
+
+.good-gallery-preview_spc {
+    margin-top: 0.5rem;
+}
+
+.good-gallery-preview__item + .good-gallery-preview__item {
+    margin-left: 0.5rem
+}
+
+.good-gallery-item__link {
+    display: block;
+}
+
+.good-gallery-item__img {
+    width: 100%;
+}
+
+.good-info-descr_wrp {
+    margin-top: 2rem;
+}
+
+.good-info__title {
+    font-size: 2.25rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+
+.good-info__sizes {
+    color: $textDim;
+}
+
+.good-info-descr_docs {
+	margin-top: 4.5rem;
+}
+
+.good-info-descr__link {
+    display: inline-block;
+    border-bottom: 1px dashed #212121;
+    color: $mainColor;
+	line-height: 1.5rem;
+	position: relative;
+	&:hover {
+		text-decoration: none;
+        color: $mainColor;
+	}
+	&:first-child::after {
+		content: "/";
+		position: absolute;
+		right: -18px;
+		color: #BBBBBB;
+	}
+}
+
+.good-features_wrp {
+    margin-top: 5rem;
+}
+
+.good-features__title {
+    font-weight: 600;
+}
+
+.good-features-item__img {
+    width: 100%;
+    height: auto;
+}
+
+.weight-popup {
+    border-bottom: 1px dashed #212121;
+}
+
+// Фиксы для lightgallery
+
+.lg-backdrop,
+.lg-toolbar,
+.lg-thumb-outer {
+    background-color: #fff !important;
+}
+
+.lg-actions .lg-prev, .lg-actions .lg-next {
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    margin-top: -10px;
+    padding: 8px 10px 9px;
+    position: absolute;
+    top: 50%;
+    z-index: 1080;
+    border: none;
+    outline: 0;
+    &:hover {
+        color: inherit;
+    }
+}
+
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
+    border-color: $mainColor;
+}
+
+.lg-thumb.lg-group {
+    margin:0 auto;
+}
+
+.good-gallery-preview__img {
+	filter: opacity(0.4) brightness(0.8);
+	cursor: pointer;
+}
+
+.preview-active {
+	& .good-gallery-preview__img {
+		filter: opacity(1) brightness(1);
+		outline: 1px solid $mainColor;
+	}
+}
+
+.good-details {
+	background-color: #F6F6F6;
+    padding-bottom: 80px;
+}
+
+.good-details_wrp {
+	margin-top: 3rem;
+}
+
+.good-details__title,
+.good-features__title {
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+
+.good-details__sizes,
+.good-details-table__title {
+	font-weight: 500;
+}

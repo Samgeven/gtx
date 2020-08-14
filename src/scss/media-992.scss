@@ -1,0 +1,169 @@
+@media (max-width: 992px) {
+
+    // Главная 
+
+    h1,
+    .main-big-slide__title {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .main-big-slide {
+        height: 350px;
+    }
+
+    .main-big-slide_spc {
+        padding: 2.5rem 2rem 0rem;
+    }
+
+    .main-big-slide__descr {
+        margin-top: 2rem;
+    }
+
+    .main-big-slide_btn {
+        margin-top: 1.5rem;
+    }
+
+    .main-small-slide_spc {
+        padding: 2rem 1.5rem;
+    }
+
+    .good-item__img {
+        max-width: 144px;
+    }
+
+    .good-item_text-wrp {
+        width: 160px;
+    }
+
+    .popular-goods_wrp {
+        margin-top: 2.5rem;
+    }
+
+    .bottom-big-slide {
+        height: 334px;
+    }
+
+    .popular-goods .good-item {
+        padding: 0.9375rem 0.65rem;
+    }
+
+    .bottom_wrp {
+        margin-bottom: 4rem;
+    }
+
+    .bottom-mid-slide {
+        height: 220px;
+    }
+
+    .bottom-mid-slide_descr {
+        & .bottom-mid-slide__note {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+        & .bottom-mid-slide__title {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+        }
+    }
+
+    .bottom-small-slide {
+        height: 220px;
+        &.upper {
+            background: url(../../dist/img/slide-xs.jpg) no-repeat 60% 0%;
+            background-size: cover;
+        }
+        &.down {
+            background: url(../../dist/img/slide-xs-2.jpg) no-repeat 20% 0%;
+            background-size: cover;
+            margin-top: 1.5rem;
+        }
+    }
+
+    // Футер
+
+    .footer-item-col1 {
+        order: 3;
+        padding-top: 2.5rem;
+    }
+
+    .footer-item-col4 {
+        order: 4;
+        padding-top: 2.5rem;
+    }
+
+    .footer_row {
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: $textDim;
+            top: 50%;
+        }
+    }
+
+    // Каталог
+
+    .breadcrumb .breadcrumb-item {
+        display: none;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .breadcrumb .breadcrumb-item:nth-last-child(2) {
+        display: block;
+    }
+
+    .breadcrumb .breadcrumb-item:before {
+        background: url(../../dist/img/ui/sprite.svg) -97px 0px;
+        transform: rotate(0deg);
+        width: 14px;
+        height: 20px;
+        top: 5px;
+        left: -12px;
+    }
+
+    .catalog-top-img_wrp {
+        display: none;
+    } 
+
+    .catalog-top-info {
+        padding-bottom: 3rem;
+    }
+
+    .catalog-top__note {
+        max-width: none;
+    }
+
+    .catalog-main_row {
+        margin-bottom: 1.5rem;
+    }
+    
+    // Карточка товара
+
+    .good-gallery-preview__img {
+        max-width: 84px;
+    }
+    
+    .good-details__title,
+    .good-features__title {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    .good-features_wrp  {
+        margin-top: 3rem;
+    }
+
+}
+
+// Фикс для галереи
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .good-gallery_spc {
+        position: relative;
+        top: 0px;
+    }
+}

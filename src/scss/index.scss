@@ -1,0 +1,133 @@
+//Главная
+
+.main-big-slide {
+    background: url(../../dist/img/slide-big.jpg) no-repeat 30%;
+    background-size: cover;
+    height: 502px;
+}
+
+.main-big-slide_spc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 4.5rem 2rem 0rem;
+}
+
+.main-big-slide_wrp {
+    margin-top: 2rem;
+}
+
+.main-big-slide_btn {
+    margin-top: 2rem;
+    display: block;
+}
+
+.main-big-slide__img-wrp {
+    max-width: 350px;
+    padding-left: 1rem;
+    padding-right: 0rem;
+}
+
+.main-big-slide__img {
+    width: 100%;
+    height: auto;
+}
+
+.main-big-slide__descr {
+    margin-top: 3rem;
+    padding-left: 0rem;
+    padding-right: 1rem;    
+}
+
+.main-big-slide__title {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.main-small-slide {
+    &_helms {
+        background: url(../../dist/img/slide-small.jpg) no-repeat 50%;
+    }
+    &_glasses {
+        background: url(../../dist/img/slide-small-2.jpg) no-repeat 50%;
+    }
+}
+
+.main-small-slide_spc {
+    padding: 5.25rem 10rem 2rem 1.5rem;
+}
+
+.popular-goods_wrp {
+    margin-top: 3rem;
+}
+
+.popular-goods__title {
+    font-style: italic;
+}
+
+.bottom_wrp {
+    margin-bottom: 5rem;
+}
+
+.bottom a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.bottom-big-slide {
+    background: url(../../dist/img/slide-big-2.jpg) no-repeat 70%;
+}
+
+.bottom-big-slide__img-wrp {
+    order: 1
+}
+
+.bottom-big-slide__descr {
+    order: 2;
+}
+
+.bottom-big-slide_wrp {
+    margin-top: 1rem;
+}
+
+.bottom-mid-slide {
+    background: url(../../dist/img/slide-mid.jpg) no-repeat 30% 35%;
+    background-size: cover;
+    height: 416px;
+}
+
+.bottom-mid-slide_spc {
+    padding: 1.5rem
+}
+
+.bottom-mid-slide_wrp,
+.bottom-slide-group_wrp {
+    margin-top: 1.5rem;
+}
+
+.bottom-small-slide {
+    height: 192px;
+    &.upper {
+        background: url(../../dist/img/slide-xs-desk.jpg) no-repeat;
+        background-size: cover;
+    }
+    &.down {
+        background: url(../../dist/img/slide-xs-desk-2.jpg) no-repeat;
+        background-size: cover;
+        margin-top: 2rem;
+    }
+}
+
+.bottom-small-slide_descr {
+    padding: 1rem;
+}
+
+// Футер
+
+.footer-item-col1 {
+    margin-top: 0.25rem;
+}

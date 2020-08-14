@@ -1,0 +1,242 @@
+// Стили, общие для всех страниц
+
+body {
+    font-family: $mainFont;
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+a {
+    color: $textColor;
+    &:hover {
+        color: #fff;
+    }
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.mt-32 {
+    margin-top: 2rem;
+}
+
+.arrow-right { // Серая стрелка вправо у ссылок
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 10px;
+        background: url(../../dist/img/ui/sprite.svg) -51px -2px;
+        transform: rotate(-90deg);
+        top: 5px;
+        right: -18px;
+    }
+}
+
+// Кнопки
+
+.btn {
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid $textColor;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 500;
+    &:hover {
+        background-color: $textColor;
+        color: $mainColor;
+    }
+}
+
+.btn_category {
+    padding: 0.4rem 1rem 0.5rem;
+    background-color: $whisperColor;
+    color: $mainColor;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    &:hover {
+        color: $mainColor;
+        text-decoration: none;
+        box-shadow: 0px 0px 3px 1px $mainColor;
+    }
+}
+
+.btn_buy {
+    background-color: $mainColor;
+    color: $textColor;
+    &:hover {
+        border: 1px solid $mainColor
+    }
+}
+
+// Инпуты
+
+.input {
+    border: none;
+    border-bottom: 1px solid $whisperColor;
+    padding: 0.5rem 1rem;
+    display: block;
+    &:focus {
+        outline: 1px solid #666666;
+        transition: 0s;
+    }
+}
+
+.input.error {
+    border: 1px solid #F44336;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background: url(../../dist/img/ui/error.svg) no-repeat;
+    background-size: 12px;
+    background-position: 94% 14px;
+    transition: 0s;
+}
+
+.input.valid {
+    border: 1px solid #4CAF50;
+    background: url(../../dist/img/ui/success.svg) no-repeat;
+    background-size: 16px;
+    background-position: 94% 13px;
+    transition: 0s;
+}
+
+label.error {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #F44336;
+}
+
+// Размер текста
+
+.text-regular {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-small {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+// js
+
+.is-opened-js {
+    display: block !important;
+}
+
+// Всплывающие окна 
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+.popup-submit {
+    width: 360px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.popup-submit_wrp {
+    padding: 2.5rem 2rem;
+}
+
+// Товары
+
+.good-item {
+    padding: 0.9375rem;
+    padding-bottom: 2rem;
+}
+
+.good-item_wrp {
+    &:hover {
+        box-shadow: $mainShadow;
+        & .good-item__link-more {
+            display: block;
+        }
+    }
+}
+
+.good-item__sizes {
+    color: $textDim;
+}
+
+.good-item__title {
+    font-weight: normal;
+}
+
+.good-item__title-link {
+    color: $mainColor;
+    &:hover {
+        color: $mainColor;
+        text-decoration: none;
+    }
+}
+
+.good-item__link-more {
+    display: none;
+    color: $mainColor;
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        width: 10px;
+        height: 14px;
+        background: url(../../dist/img/ui/sprite.svg) -283px 0px;
+        left: 85px;
+        bottom: 2px;
+        transform: rotate(-90deg);
+    }
+}
+
+.good-item__link {
+    background-color: #F6F6F6;
+}
+
+.good-item__img {
+    width: 207px;
+    height: auto;
+    mix-blend-mode: multiply;
+    margin: 2.5rem 1.5rem;
+}
+
+.good-item_text-wrp {
+    width: 207px;
+    text-align: center;
+}
+
+
+

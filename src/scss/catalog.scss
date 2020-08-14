@@ -1,0 +1,84 @@
+// Каталог
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 1.5rem 0;
+}
+
+.breadcrumb-item a {
+    color: $textDim;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 1rem;
+    &:before {
+        content: "";
+        background: url(/dist/img/ui/sprite.svg) -400px 0px;
+        width: 14px;
+        height: 14px;
+        transform: rotate(-90deg);
+        position: relative;
+        top: 4px;
+        left: -6px;
+    }
+}
+
+.catalog-categories {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.catalog-categories__link {
+    white-space: nowrap;
+}
+
+.btn_category + .btn_category {
+    margin-left: 1rem;
+}
+
+.back-category {
+	padding-left: 2.25rem;
+	position: relative;
+	&:after {
+		position: absolute;
+		content: "";
+		background: url(../../dist/img/ui/sprite.svg) -560px 0px;
+	    transform: rotate(90deg);
+	    width: 14px;
+	    height: 20px;
+	    top: 6px;
+	    left: 8px;
+	}
+}
+
+.catalog-top {
+	background-color: #F6F6F6;
+}
+
+.catalog-top__note {
+	color: $textDim;
+	max-width: 445px;
+	}
+
+.catalog-top__title {
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+}
+
+.catalog-top-img_wrp {
+	max-height: 324px;
+	overflow: hidden;
+}
+
+.catalog-main_row {
+	margin-top: 2rem;
+	margin-bottom: 2.5rem;
+}
+
+.catalog .good-item {
+	padding-top: 0;
+}
+

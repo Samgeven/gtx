@@ -1,0 +1,46 @@
+.footer {
+	background-color: $mainColor;
+}
+
+.footer_row {
+    padding: 2.5rem 0 3rem;	
+}
+
+.footer-item__link.header-top__mail {
+    &:before {
+        background: url(../../dist/img/ui/sprite.svg) -360px 0px;
+        left: -24px;
+        top: 4px;
+    }
+}
+
+.footer-item__phone {
+    position: relative;
+    &:before {
+        position: absolute;
+        content: "";
+        width: 18px;
+        height: 18px;
+        background: url(../../dist/img/ui/sprite.svg) -240px 0px;
+        left: -24px;
+        top: 1px;
+    }
+}
+
+.footer-item__link {
+	position: relative;
+}
+
+.footer-item__link.mail:before {
+	position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url(../../dist/img/ui/sprite.svg) -360px 0px;
+    left: -24px;
+    top: 4px;
+}
+
+.footer-item-col4 {
+	padding-left: 2.5rem
+}
