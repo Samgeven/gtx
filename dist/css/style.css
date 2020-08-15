@@ -86,10 +86,11 @@ h5 {
     border: 1px solid #000000; }
 
 .input {
+  display: block;
   border: none;
-  border-bottom: 1px solid #E5E5E5;
-  padding: 0.5rem 1rem;
-  display: block; }
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0.45rem 1rem;
+  width: 100%; }
   .input:focus {
     outline: none;
     border-bottom: 1px solid #000000;
@@ -649,11 +650,58 @@ label.error {
   justify-content: space-between; }
 
 .contacts-request-form__input {
-  display: block;
-  border: none;
-  border-bottom: 1px solid #CCCCCC;
-  padding: 0.45rem 1rem;
-  width: 100%;
   margin-top: 1rem; }
   .contacts-request-form__input:first-child {
     margin-top: 0; }
+
+.dealer {
+  background-color: #F6F6F6; }
+
+.dealer_row {
+  justify-content: space-between; }
+
+.dealer-info {
+  margin-top: 3.5rem; }
+
+.dealer-info__title {
+  font-size: 1.75rem;
+  line-height: 2.25rem; }
+
+.dealer_img-wrp {
+  max-height: 260px;
+  overflow: hidden; }
+
+.dealer-request {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem; }
+
+.dealer-request_row {
+  justify-content: space-between; }
+
+.dealer-request-form__input {
+  margin-top: 1rem; }
+  .dealer-request-form__input:first-child {
+    margin-top: 0; }
+
+.dealer-features__title {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 0.5rem;
+  font-weight: 600; }
+
+.dealer-features_img-wrp {
+  background: url(../../dist/img/ui/sprite2.svg) no-repeat -120px -14px;
+  width: 42px;
+  height: 42px; }
+  .dealer-features_img-wrp.payback {
+    background: url(../../dist/img/ui/sprite2.svg) no-repeat -59px -14px; }
+  .dealer-features_img-wrp.ads {
+    background: url(../../dist/img/ui/sprite2.svg) no-repeat 0 -7px; }
+
+.dealer-features-item {
+  margin-top: 3.75rem; }
+
+.dealer-map.yandex-map {
+  height: 480px;
+  margin: 3.5rem 0 5rem; }

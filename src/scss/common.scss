@@ -110,10 +110,11 @@ h5 {
 // Инпуты
 
 .input {
-    border: none;
-    border-bottom: 1px solid $whisperColor;
-    padding: 0.5rem 1rem;
     display: block;
+    border: none;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0.45rem 1rem;
+    width: 100%;
     &:focus {
         outline: none;
         border-bottom: 1px solid $mainColor;

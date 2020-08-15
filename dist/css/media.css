@@ -20,6 +20,8 @@
   .contacts_img-wrp {
     margin-right: 1rem; }
   .contacts__img {
+    margin: 0% -18%; }
+  .dealer__img {
     margin: 0% -18%; } }
 
 @media (max-width: 992px) {
@@ -113,6 +115,11 @@
   .contacts_img-wrp {
     display: none; }
   .contacts-info {
+    margin-top: 2.5rem;
+    padding-bottom: 3rem; }
+  .dealer__img {
+    display: none; }
+  .dealer-info {
     margin-top: 2.5rem;
     padding-bottom: 3rem; } }
 
@@ -275,7 +282,12 @@
   .good-info-descr_wrp {
     margin-top: 0; }
   .contacts-request__info {
-    margin-top: 3.5rem; } }
+    margin-top: 3.5rem; }
+  .dealer-request_form-wrp {
+    margin-top: 2.75rem; }
+  .dealer-map.yandex-map {
+    height: 340px;
+    margin: 3.5rem 0 5rem; } }
 
 @media (max-width: 576px) {
   .main-big-slide {
