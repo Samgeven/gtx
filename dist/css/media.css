@@ -121,7 +121,11 @@
     display: none; }
   .dealer-info {
     margin-top: 2.5rem;
-    padding-bottom: 3rem; } }
+    padding-bottom: 3rem; }
+  .where-to-buy_img-wrp {
+    display: none; }
+  .where-to-buy-info {
+    padding-bottom: 2.5rem; } }
 
 @media (max-width: 992px) and (min-width: 768px) {
   .good-gallery_spc {
@@ -285,7 +289,7 @@
     margin-top: 3.5rem; }
   .dealer-request_form-wrp {
     margin-top: 2.75rem; }
-  .dealer-map.yandex-map {
+  .yandex-map {
     height: 340px;
     margin: 3.5rem 0 5rem; } }
 
