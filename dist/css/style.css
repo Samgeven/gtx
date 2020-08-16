@@ -624,6 +624,9 @@ label.error {
 .good-details-table__title {
   font-weight: 500; }
 
+.good-gallery-preview__img {
+  width: 96px; }
+
 .contacts {
   background-color: #F6F6F6; }
 
