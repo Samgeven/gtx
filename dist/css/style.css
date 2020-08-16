@@ -819,3 +819,17 @@ label.error {
 
 .where-to-buy_map-wrp .yandex-map {
   margin-bottom: 0; }
+
+.technology-content {
+  margin-top: 3rem;
+  margin-bottom: 5rem; }
+
+.technology__img {
+  width: 100%;
+  height: auto; }
+
+.techology_img-group {
+  margin-top: 2.5rem; }
+
+.title_mt {
+  margin-top: 3rem; }

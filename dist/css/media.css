@@ -125,7 +125,10 @@
   .where-to-buy_img-wrp {
     display: none; }
   .where-to-buy-info {
-    padding-bottom: 2.5rem; } }
+    padding-bottom: 2.5rem; }
+  .technology-content {
+    margin-top: 2rem;
+    margin-bottom: 4rem; } }
 
 @media (max-width: 992px) and (min-width: 768px) {
   .good-gallery_spc {
@@ -291,7 +294,9 @@
     margin-top: 2.75rem; }
   .yandex-map {
     height: 340px;
-    margin: 3.5rem 0 5rem; } }
+    margin: 3.5rem 0 5rem; }
+  .techology_img-group {
+    margin-top: 2rem; } }
 
 @media (max-width: 576px) {
   .main-big-slide {
@@ -343,4 +348,6 @@
     padding: 0 0.9375rem 1.5rem; }
   .good-features-item +
 .good-features-item {
-    margin-top: 2rem; } }
+    margin-top: 2rem; }
+  .title_mt {
+    margin-top: 2.5rem; } }
