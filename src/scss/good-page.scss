@@ -143,3 +143,24 @@
 .good-gallery-preview__img {
     width: 96px;
 }
+
+.Magic360-container {
+    width: 54px !important;
+    height: 40px;
+    border: none;
+    position: absolute !important;
+    left: 12px;
+    top: 18px;
+}
+
+.Magic360-container a.Magic360 {
+   visibility: hidden !important;
+}
+
+.Magic360-container .m360-icon {
+   background: url(../../dist/img/ui/sprite2.svg) no-repeat -181px -13px;
+   width: 50px !important;
+   &:before {
+    content: "" !important;
+   }
+}
